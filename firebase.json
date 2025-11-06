@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bridgetalk-9310b",
+          "appId": "1:808470468802:android:480f8095055e1574d3435b",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bridgetalk-9310b",
+          "configurations": {
+            "android": "1:808470468802:android:480f8095055e1574d3435b",
+            "ios": "1:808470468802:ios:78cf8f3736b1ea6ad3435b",
+            "macos": "1:808470468802:ios:78cf8f3736b1ea6ad3435b",
+            "web": "1:808470468802:web:aeddad22ba495ce2d3435b",
+            "windows": "1:808470468802:web:31a1340e9b9da8c5d3435b"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "functions": {
+        "source": "functions"
+      }
+    }
+  ]
+}

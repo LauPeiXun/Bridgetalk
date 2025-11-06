@@ -1,0 +1,148 @@
+name: bridgetalk
+description: "A new Flutter project."
+
+publish_to: "none" 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.3
+
+  # Firebase
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+  firebase_messaging: ^15.2.5
+  google_sign_in: ^6.2.1
+  firebase_app_check: ^0.3.2+5
+  cloud_functions: ^5.4.0
+
+  # Widgets
+  fluttertoast: ^8.2.12
+  shimmer: ^3.0.0
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.4
+  
+  # Format
+  intl: ^0.18.1 
+
+  #Notification'
+  flutter_local_notifications: ^19.1.0
+  
+  # Others
+  image_picker: ^1.1.2
+  flutter_keyboard_visibility: ^6.0.0
+  profanity_filter: ^2.0.0
+  highlight_text: ^1.8.0
+  app_settings: ^6.1.1
+  http: ^1.3.0
+  foundation: ^0.0.5
+  async: ^2.12.0
+  rxdart: ^0.28.0
+  safe_text: ^1.0.7
+  flutter_image_compress: ^2.4.0
+  firebase_vertexai: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_native_splash: ^2.4.1
+
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/BridgeTalk.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/logo_foreground.png"
+
+#Run commands to generate splash screen
+#1 flutter clean
+#2 flutter pub get
+#3 flutter pub run flutter_native_splash:create
+flutter_native_splash:
+  color: "#ffcc80"
+  image: "assets/icons/splash.gif"
+  android: true
+  ios: true
+  android_gravity: center  
+  fullscreen: true
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    #General
+    - assets/images/icon.png
+    - assets/icons/BridgeTalk.png
+    - assets/icons/splash.gif
+    - assets/icons/logo_foreground.png
+    - assets/images/wish-list.png
+
+    # Login & Register
+    - assets/images/wrong-password.png
+    - assets/images/forgot-password-animation.gif
+    - assets/images/office-material.png
+    - assets/images/passwordKey.png
+    - assets/images/check.png
+    - assets/images/profileImage.png
+
+    # SOS
+    - assets/images/sosImage.png
+    - assets/images/fatherImage.png
+    - assets/images/motherImage.png
+    - assets/icons/stressed.png
+    - assets/icons/depressed.png
+    - assets/images/check.png
+    - assets/images/motherIcon.png
+    - assets/images/fatherIcon.png
+    - assets/images/fire.png
+    - assets/images/success.gif
+    - assets/images/success.png
+
+    #Spark
+    - assets/images/fire.png
+    - assets/images/fire/fire0.png
+    - assets/images/fire/fire1.png
+    - assets/images/fire/fire2.png
+    - assets/images/fire/fire3.png
+    - assets/images/fire/fire4.png
+    - assets/images/fire/fire5.png
+    - assets/images/fire/fire6.png
+    - assets/images/fire/fire7.png
+    - assets/images/fire/fire8.png
+
+    #Game
+    - assets/images/gameCards/fire.png
+    - assets/images/gameCards/hat.png
+    - assets/images/gameCards/lion.png
+    - assets/images/gameCards/piano.png
+    - assets/images/gameCards/present.png
+    - assets/images/gameCards/sunflower.png
+    - assets/images/gamesCatalogImage/games1.png
+    - assets/images/gamesCatalogImage/games2.png
+    - assets/images/gamesCatalogImage/games3.jpg
+    - assets/images/gamesCatalogImage/games4.png
+    - assets/images/gameCards/dolphine.png
+    - assets/images/gameCards/earth.png
+    - assets/images/gameCards/lock.png
+    - assets/images/gameCards/umbrella.png
+
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+          weight: 700
