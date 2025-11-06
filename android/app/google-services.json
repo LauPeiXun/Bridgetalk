@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "808470468802",
+    "project_id": "bridgetalk-9310b",
+    "storage_bucket": "bridgetalk-9310b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808470468802:android:21e2195932c5f5f2d3435b",
+        "android_client_info": {
+          "package_name": "com.example.bridge_talk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808470468802-tln0mlb0o5bid7c47o0v7v25grh36flm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoHLLYb3c6Mu4pFGQ3deQQyuAUweGShzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808470468802-tln0mlb0o5bid7c47o0v7v25grh36flm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808470468802-asrf3ci8dvlm48bs0vilrv04h29l28nv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bridgetalk"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808470468802:android:480f8095055e1574d3435b",
+        "android_client_info": {
+          "package_name": "com.example.bridgetalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808470468802-tln0mlb0o5bid7c47o0v7v25grh36flm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoHLLYb3c6Mu4pFGQ3deQQyuAUweGShzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808470468802-tln0mlb0o5bid7c47o0v7v25grh36flm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808470468802-asrf3ci8dvlm48bs0vilrv04h29l28nv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bridgetalk"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
